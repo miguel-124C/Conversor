@@ -1,5 +1,54 @@
-.idea
-.vscode
-/out
-/build
-/target
+# Directorios generados por Maven
+/target/
+
+# Directorios generados por Gradle
+/build/
+
+# Archivos de configuración del IDE IntelliJ
+/.idea/
+/*.iml
+
+# Archivos de configuración del IDE Eclipse
+/.classpath
+/.project
+/.settings/
+
+# Archivos de configuración del IDE NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Archivos de configuración del IDE VS Code
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+*.class
+
+# Archivos de empaquetado
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración del sistema
+*.env
+
+# Archivos de dependencias
+dependency-reduced-pom.xml
+.recommenders/
+.springBeans
+
+# Otros archivos temporales
+*.swp
+*~
+
+# Directorio para librerías locales
+lib/
